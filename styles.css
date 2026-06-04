@@ -1,0 +1,10 @@
+body{margin:0;font-family:Arial,sans-serif}
+.hero{background:#0b84d8;color:#fff;text-align:center;padding:40px 20px}
+.logo{width:180px;max-width:40vw;height:auto;display:block;margin:auto}
+.actions{display:flex;justify-content:center;gap:15px;margin-top:15px}
+.circle{width:60px;height:60px;border-radius:50%;background:#fff;color:#0b84d8;display:flex;align-items:center;justify-content:center;text-decoration:none}
+nav{display:flex;justify-content:center;gap:20px;padding:15px;background:#f4f4f4}
+section{padding:40px 20px}
+.social-float{position:fixed;right:15px;top:50%;transform:translateY(-50%);display:flex;flex-direction:column;gap:10px}
+.social-float a{width:55px;height:55px;border-radius:50%;background:#0b84d8;color:#fff;display:flex;align-items:center;justify-content:center;text-decoration:none;border:2px solid #fff}
+.whatsapp{position:fixed;left:20px;bottom:20px;width:60px;height:60px;border-radius:50%;background:#25D366;color:#fff;display:flex;align-items:center;justify-content:center;text-decoration:none;font-size:30px}
