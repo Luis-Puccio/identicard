@@ -1,0 +1,577 @@
+<html lang="es">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta property="og:image" content="https://storage.googleapis.com/identicard-328401.appspot.com/card/icon_07f64fb6ab.jpg">
+    <meta property="og:image:type" content="image/png">
+    <meta property="og:image:width" content="1024">
+    <meta property="og:image:height" content="1024">
+    <meta property="og:type" content="website" />
+    <meta property="og:url" content="/card/finca-bonita/"/>
+    <meta property="og:title" content="Condominio" />
+    <meta property="og:description" content="De Campo" />
+    <link rel="icon" type="image/png" href="/static/icons/favicon.5f2055b1ee5c.png">
+    
+      <link rel="apple-touch-icon" href="https://storage.googleapis.com/identicard-328401.appspot.com/card/card/icon_07f64fb6ab_f13bbd422f.jpg">
+    
+    <link rel="manifest" href="/card/652/manifest.json">
+    <title>IdentiCard</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+    
+
+<link rel="stylesheet" href="/static/css/dist/styles.7b0c0c03ebbd.css">
+
+
+
+    <style>
+      
+        * {
+          font-family: Open Sans
+        }
+      
+      .text-primary {
+        color: #0187d0;
+      }
+      .text-over-bg {
+        color: #ffffff
+      }
+      .hover\:text-primary:hover {
+        color: #0187d0;
+      }
+      .focus\:text-primary:focus {
+        color: #0187d0;
+      }
+      .bg-primary {
+        background-color: #0187d0;
+      }
+      .hover\:bg-primary:hover {
+        background-color: #0187d0
+      }
+      .border-primary {
+        border-color: #0187d0;
+      }
+      .border-over-bg {
+        border-color: #ffffff;
+      }
+      .spinner .path {
+          stroke: #0187d0;
+          stroke-linecap: round;
+          animation: dash 1.5s ease-in-out infinite;
+      }
+    </style>
+    
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/flatpickr/dist/flatpickr.min.css">
+
+    <script defer src="/static/js/base.82d9b33553d3.js"></script>
+    <script defer src="/static/card/js/card.aa43cfbe24b2.js"></script>
+    
+  <script src="https://cdn.jsdelivr.net/npm/flatpickr"></script>
+  
+  <script id="slots-url" type="application/json">"/card/652/card_available_slots/"</script>
+  <script id="card-pk" type="application/json">652</script>
+
+    <script defer src="https://unpkg.com/alpinejs@3.10.5/dist/cdn.min.js"></script>
+  </head>
+  <body>
+    
+  
+<div class="">
+  <nav
+    class="container mx-auto flex justify-between items-center h-16 px-2 md:px-0 relative"
+    x-data="{open: false}"
+  >
+    <img class="h-8 md:h-10" src="https://storage.googleapis.com/identicard-328401.appspot.com/card/logo-finca-bonita_cd65f0fb7c.jpeg" />
+    <i @click="open = true" x-transition x-show="!open" class="las la-bars md:hidden text-2xl "></i>
+    <i @click="open = false" x-transition x-show="open" class="las la-times md:hidden text-2xl "></i>
+    <div
+      class="absolute md:static top-16 bg-white w-full md:w-auto left-0 md:flex flex-col md:flex-row items-center z-40 "
+      :class="open ? 'flex' : 'hidden'"
+    >
+      <button data-text="https://identicard.space/card/finca-bonita/" class="bg-primary text-over-bg rounded-full mx-1 px-2 py-1 text-sm flex items-center copy-to-clipboard my-2 md:my-0">
+        <span class="las la-link text-sm md:mr-1"></span>
+        <span>Link</span>
+      </button>
+      <button id="add-btn" class="bg-primary text-over-bg rounded-full mx-1 px-2 py-1 text-sm flex items-center my-2 md:my-0">
+        <span class="las la-download text-sm md:mr-1"></span>
+        <span>Instalar</span>
+      </button>
+      <a class="bg-primary text-over-bg rounded-full mx-1 px-2 py-1 text-sm flex items-center my-2 md:my-0" href="/card/652/vcard/" target="_blank">
+        <span class="las la-address-book text-sm md:mr-1"></span>
+        <span>Agregar</span>
+      </a>
+      <a href="whatsapp://send?text=https://identicard.space/card/finca-bonita/">
+        <button class="bg-primary text-over-bg rounded-full mx-1 px-2 py-1 text-sm flex items-center my-2 md:my-0">
+          <span class="las la-share md:mr-1 text-sm"></span>
+          <span>Compartir</span>
+        </button>
+      </a>
+    </div>
+  </nav>
+</div>
+  <main>
+    <section
+      id="hero"
+      class="h-screen-calc bg-no-repeat bg-center bg-cover flex flex-col justify-center items-center"
+      style="background-image: url(https://storage.googleapis.com/identicard-328401.appspot.com/card/background-finca-bonita_93af96dd60.jpg)"
+    >
+      <div class="flex flex-col items-center backdrop-blur-lg rounded-md p-2">
+        <div>
+          
+            <img class="w-24 h-24 md:w-40 md:h-40 rounded-full mx-auto object-cover object-center" src="https://storage.googleapis.com/identicard-328401.appspot.com/user/icon_f02b06b693.jpg" alt="logo image" />
+          
+          
+            <h6 style="color: #ffffff" class="uppercase text-center">Condominio</h6>
+          
+          
+            <p style="color: #ffffff" class="text-center">De Campo</p>
+          
+        </div>
+        <div class="flex justify-center items-center flex-wrap mt-4 w-full">
+          
+            <div class="flex items-center justify-center">
+              <a
+                href="tel:+51996353288"
+                class="font-semibold text-over-bg border-2 border-white text-xl mr-1 las la-phone bg-primary w-12 h-12 inline-flex justify-center items-center rounded-full"
+              >
+              </a>
+            </div>
+          
+          
+            <div class="flex items-center justify-center">
+              <a
+                target="_blank"
+                href="mailto:luis.puccio@gmail.com"
+                class="font-semibold text-over-bg border-2 border-white text-xl mr-1 las la-envelope bg-primary w-12 h-12 inline-flex justify-center items-center rounded-full"
+              >
+              </a>
+            </div>
+          
+          
+          
+        </div>
+      </div>
+      
+        <div class="group relative">
+          <button class="text-center bg-primary p-2 mt-2 rounded-md text-white text-lg flex items-center">
+            <span id="audio-btn" class="las la-play-circle text-white mr-2"></span>
+            <span>Audio</span>
+          </button>
+          <div class="invisible group-hover:visible absolute left-1/2 -translate-x-1/2 transition-all top-0">
+            <iframe src="https://open.spotify.com/embed/playlist/1onwV59ICVIjD17d7rt2Zy?si=CO9eNEjzR-KPWOV7a8BGdw" width="300" height="380" frameBorder="0" allowfullscreen="" allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"></iframe>
+          </div>
+        </div>
+      
+    </section>
+    
+      <section class="py-12 bg-gray-900 min-h-screen-1/3 flex justify-center items-center px-2 md:px-0">
+        <div class="container mx-auto">
+          
+            <p><strong style="color: rgb(255, 255, 255);">Finca Bonita</strong><span style="color: rgb(255, 255, 255);"> es un exclusivo condominio residencial que combina naturaleza, confort y seguridad en un entorno diseñado para vivir con tranquilidad y bienestar. Concebido bajo altos estándares de calidad, el proyecto ofrece una infraestructura moderna con amplias áreas verdes, vías internas totalmente habilitadas y espacios comunes que promueven la convivencia y el descanso.</span></p><p><br></p><p><span style="color: rgb(255, 255, 255);">Cada detalle ha sido cuidadosamente planificado para ofrecer un equilibrio perfecto entre vida urbana y entorno natural. </span><strong style="color: rgb(255, 255, 255);">Finca Bonita</strong><span style="color: rgb(255, 255, 255);"> brinda a sus residentes un ambiente seguro, con servicios integrales y una comunidad organizada que valora la armonía, la privacidad y la calidad de vida.</span></p>
+          
+        </div>
+      </section>
+    
+    <section class="py-12 bg-gray-900">
+      <div class="container mx-auto flex flex-col md:flex-row">
+        
+          <div class="w-full">
+            <img class="rounded-md w-full" src="https://storage.googleapis.com/identicard-328401.appspot.com/card/Foto-frontis-Finca-Bonita_2222_6348faa795.jpeg" alt="featured image" />
+          </div>
+        
+        
+          <div class="w-full p-10 text-white">
+            
+              <p><br></p><p><br></p><p>Más que un condominio, <strong>Finca Bonita</strong> representa un estilo de vida pensado para quienes buscan un hogar donde la comodidad, la naturaleza y la elegancia se encuentren en perfecta sintonía.</p><p><br></p><p><a href="https://wa.me/+51996353288" target="_blank"><strong>Cobranzas DALE CLICK</strong></a></p><p><br></p><p><a href="https://drive.google.com/drive/folders/1oNcDEqaiee1Y2aOcbsLa-xPXYTEGtptH?usp=sharing" target="_blank"><strong>Consejo Directivo LINK</strong></a></p><p><br></p><p><br></p><p><br></p><p><br></p><p><br></p>
+            
+          </div>
+        
+      </div>
+    </section>
+    
+      <section class="py-12">
+        <div class="container mx-auto flex flex-col md:flex-row md:justify-around items-start">
+          
+            <div class="w-full md:w-1/4 mb-2 md:mb-0 rounded-md shadow-md bg-white relative group overflow-hidden">
+              
+                <h4 class="text-center my-2">ZONA DE PARRILLA</h4>
+              
+              
+                <a href="https://wa.me/+51996353288" target="_blank">
+                  <img src="https://storage.googleapis.com/identicard-328401.appspot.com/service/finca-bonita-4_286dde38de.jpeg" />
+                </a>
+              
+              <div class="p-2  w-full">
+                
+                  
+                    <p><span style="color: rgb(15, 17, 21);">Haz clic en la imagen para reservar tu parrilla...</span></p>
+                  
+                
+              </div>
+            </div>
+          
+            <div class="w-full md:w-1/4 mb-2 md:mb-0 rounded-md shadow-md bg-white relative group overflow-hidden">
+              
+                <h4 class="text-center my-2">COMPARTIR NAVIDEÑO 2025 - DOCUMENTAL</h4>
+              
+              
+                <a href="https://youtu.be/fmvAzzCXiWs?si=5RDuKsNEe84TKUvq" target="_blank">
+                  <img src="https://storage.googleapis.com/identicard-328401.appspot.com/service/finca-bonita---139_0eeaa69f77.jpg" />
+                </a>
+              
+              <div class="p-2  w-full">
+                
+                  
+                    <p><span style="color: rgb(15, 17, 21);">Haz clic para ver el Documental de nuestro último compartir navideño... 🌲✨</span></p>
+                  
+                
+              </div>
+            </div>
+          
+            <div class="w-full md:w-1/4 mb-2 md:mb-0 rounded-md shadow-md bg-white relative group overflow-hidden">
+              
+                <h4 class="text-center my-2">COMPARTIR NAVIDEÑO 2025 - REEL</h4>
+              
+              
+                <a href="https://youtu.be/BpBkwlsfj0g?si=93JT1ShpRkcaAa6O" target="_blank">
+                  <img src="https://storage.googleapis.com/identicard-328401.appspot.com/service/finca-bonita---141-miniatura_27efeeed59.jpg" />
+                </a>
+              
+              <div class="p-2  w-full">
+                
+                  
+                    <p><span style="color: rgb(15, 17, 21);">Haz clic para ver el Reel de nuestro último compartir navideño... 🌲✨</span></p>
+                  
+                
+              </div>
+            </div>
+          
+        </div>
+      </section>
+    
+    
+      <h1 class="text-center mt-12 mb-4 text-xl md:text-5xl">Contáctanos o Reserva una cita</h1>
+      <section class="container mx-auto" x-data="{current: 'book'}">
+        <div>
+          <ul class='flex cursor-pointer justify-center'>
+            <li
+              @click="current = 'book'"
+              class="py-2 px-6 rounded-t-lg cursor-pointer transition-colors"
+              :class="current == 'book' ? 'bg-gray-900 text-white' : 'text-gray-400 bg-gray-100'"
+            >
+              Reserva
+            </li>
+            <li
+              @click="current = 'contact'"
+              class="py-2 px-6 rounded-t-lg cursor-pointer transition-colors"
+              :class="current == 'contact' ? 'bg-gray-900 text-white' : 'text-gray-400 bg-gray-100'"
+            >
+              Contacta
+            </li>
+          </ul>
+        </div>
+        <section x-show="current == 'book'">
+          
+            <div class="calendly-inline-widget" data-url="https://calendly.com/microweb-fincabonita/30min" style="min-width:320px;height:800px;"></div>
+            <script defer type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js" async></script>
+          
+        </section>
+        <section x-show="current == 'contact'" class="md:flex">
+          <div class="w-full">
+            
+              <p><i class="las la-phone"></i> +51996353288</p>
+            
+            
+              <p><i class="las la-envelope"></i> luis.puccio@gmail.com</p>
+            
+            
+              
+              <p>
+                <i class="las la-map-marker-alt"></i> 
+                <a href="https://www.google.com/maps/search/?api=1&query=https%3A//wa.me/%2B51944657617" target="_blank" class="text-blue-600"> https://wa.me/+51944657617</a></p>
+              
+            
+          </div>
+          <div class="w-full">
+            
+            
+
+<div class="p-6 bg-white rounded-md shadow-md bg-transparent shadow-none">
+  
+  <form  action="/card/652/contact/" method="POST"  @submit="onSubmit" x-data="basicFormData()" >
+    <input type="hidden" name="csrfmiddlewaretoken" value="bxaMRjwPNTDFKREExKto6MDzDlpZVLHa9uYJmCEOFDEZZpRxgL7YzPxQR3QsMWFu">
+    <div
+      class="grid grid-cols-1
+      
+      gap-2 mt-4
+      
+      "
+    >
+      
+        <div x-ref="id_full_name" class=" input-wrapper">
+          
+            
+              <label class="text-gray-700 font-medium text-sm" for="id_full_name">Full name</label>
+            
+            <input type="text" name="full_name" maxlength="100" required id="id_full_name">
+          
+          <small class="block text-xs mb-1"></small>
+          <small class="block text-error text-xs"></small>
+        </div>
+      
+        <div x-ref="id_email" class=" input-wrapper">
+          
+            
+              <label class="text-gray-700 font-medium text-sm" for="id_email">Email</label>
+            
+            <input type="email" name="email" maxlength="100" required id="id_email">
+          
+          <small class="block text-xs mb-1"></small>
+          <small class="block text-error text-xs"></small>
+        </div>
+      
+        <div x-ref="id_phone" class=" input-wrapper">
+          
+            
+              <label class="text-gray-700 font-medium text-sm" for="id_phone">Phone</label>
+            
+            <input type="text" name="phone" maxlength="15" required id="id_phone">
+          
+          <small class="block text-xs mb-1"></small>
+          <small class="block text-error text-xs"></small>
+        </div>
+      
+        <div x-ref="id_message" class=" input-wrapper">
+          
+            
+              <label class="text-gray-700 font-medium text-sm" for="id_message">Message</label>
+            
+            <textarea name="message" cols="40" rows="10" required id="id_message">
+</textarea>
+          
+          <small class="block text-xs mb-1"></small>
+          <small class="block text-error text-xs"></small>
+        </div>
+      
+    </div>
+    
+      <div class="flex justify-end mt-4">
+        <button type="submit" class="bg-primary text-light flex items-center rounded-md focus:outline-none">
+          <div x-show="loading" x-transition class="loader ease-linear rounded-full border-2 border-t-2 border-gray-200 h-4 w-4"></div>
+          <span class="ml-1">Enviar</span>
+        </button>
+      </div>
+    
+  </form>
+</div>
+          </div>
+        </section>
+      </section>
+    
+    <footer class="bg-gray-900 py-12">
+      <div class="flex flex-col md:flex-row justify-center items-center mb-2">
+        
+          <div class="w-full">
+            <div class="w-1/2 md:w-1/3 p-3 border border-white rounded-md mx-auto md:-mr-0 md:ml-auto">
+              <img class="w-full" src="https://storage.googleapis.com/identicard-328401.appspot.com/card/qrcode_649c1a8e09.svg" alt="qr code">
+            </div>
+          </div>
+        
+        <div class="w-full p-6 text-center md:text-left">
+          
+  <p class="text-white"><span class="las la-phone text-sm"></span> +51996353288</p>
+
+
+  <p class="text-white"><span class="las la-envelope text-sm"></span> luis.puccio@gmail.com</p>
+
+
+  <p class="text-white"><span class="las la-map-marker text-sm"></span> lima</p>
+
+<div class="flex justify-center md:justify-start mt-2">
+  
+    <a class="flex justify-center items-center w-7 h-7 text-white rounded-full" href="https://drive.google.com/drive/folders/1dilNeciRSgSlcEw0HHSuNEbYg6Jx1NqD?usp=sharing"><i class="las la-link"></i></a>
+  
+  
+    <a class="flex justify-center items-center w-7 h-7 text-white rounded-full" href="https://www.facebook.com/profile.php?id=61579987125831"><i class="lab la-facebook-f"></i></a>
+  
+  
+  
+    <a class="flex justify-center items-center w-7 h-7 text-white rounded-full" href="https://www.instagram.com/cd.finca.bonita/"><i class="lab la-instagram"></i></a>
+  
+  
+  
+    <a class="flex justify-center items-center w-7 h-7 text-white rounded-full" href="https://www.youtube.com/watch?v=rSdMUqaiZyQ&amp;list=PLbdjsV2T5CmDdyMvTYeziZwbd9VcbTesz"><i class="lab la-youtube"></i></a>
+  
+</div>
+        </div>
+      </div>
+      
+
+  <div class="text-center mb-2">
+    <a href="/dashboard/" class="text-gray-200 text-center text-sm">Panel de control</a>
+  </div>
+
+<p class="text-gray-600 text-center text-sm">Powered by <a href="/"><img class="w-20 inline-block" src="/static/card/img/logo.d66e62d4ec34.svg" /></a></p>
+    </footer>
+    
+<style>
+  .social-icon {
+    
+      width: 2.5rem;
+      height: 2.5rem;
+    
+  }
+</style>
+<div class="grid gap-1 fixed right-3 top-1/2 -translate-y-1/2 z-50 grid-cols-1 grid-flow-row">
+  
+    <a class="flex justify-center items-center border-2 border-white text-xl social-icon text-over-bg bg-primary rounded-full" href="https://drive.google.com/drive/folders/1dilNeciRSgSlcEw0HHSuNEbYg6Jx1NqD?usp=sharing"><i class="las la-link"></i></a>
+  
+  
+    <a class="flex justify-center items-center border-2 border-white text-xl social-icon text-over-bg bg-primary rounded-full" href="https://www.facebook.com/profile.php?id=61579987125831"><i class="lab la-facebook-f"></i></a>
+  
+  
+  
+  
+    <a class="flex justify-center items-center border-2 border-white text-xl social-icon text-over-bg bg-primary rounded-full" href="https://www.instagram.com/cd.finca.bonita/"><i class="lab la-instagram"></i></a>
+  
+  
+  
+    <a class="flex justify-center items-center border-2 border-white text-xl social-icon text-over-bg bg-primary rounded-full" href="https://www.youtube.com/watch?v=rSdMUqaiZyQ&amp;list=PLbdjsV2T5CmDdyMvTYeziZwbd9VcbTesz"><i class="lab la-youtube"></i></a>
+  
+  
+  
+  
+  
+</div>
+    
+<a
+  target="_blank"
+  href="https://wa.me/+51996353288"
+  class="bg-green-500 rounded-full p-1 w-14 h-14 inline-flex justify-center items-center mr-1 fixed left-5 bottom-5"
+>
+  <img class="w-7" src="/static/icons/whatsapp.862e905a19e6.svg" />
+</a>
+  </main>
+
+    
+    
+    <div id="splash-screen" class="fixed inset-0 bg-white flex justify-center items-center z-50">
+      <svg class="spinner" viewBox="0 0 50 50">
+        <circle class="path" cx="25" cy="25" r="20" fill="none" stroke-width="5"></circle>
+      </svg>
+    </div>
+    <div
+  x-data="messaging([])"
+  @messaging:new.window="addMessages"
+  class="fixed left-3 bottom-3 z-50"
+>
+  <template x-for="(alert, i) in alerts">
+    <div class="mt-2">
+      <div class="flex max-w-sm w-full bg-white shadow-md rounded-lg overflow-hidden items-stretch">
+  <div class="flex justify-center items-center w-12" :class="`bg-${alert.level_tag}`" ></div>
+  <div class="-mx-3 py-2 px-4">
+    <div class="mx-3">
+      <span class="font-semibold" :class="`text-${alert.level_tag}`" x-text="(alert.level_tag)" ></span>
+      <p class="text-gray-600 text-sm" x-text="alert.message"></p>
+    </div>
+  </div>
+  <div class="flex items-center">
+    <span class="material-icons text-gray-500 p-2 text-base cursor-pointer" x-on:click="removeAlert(i)">close</span>
+  </div>
+</div>
+    </div>
+  </template>
+</div>
+    
+<script id="regURL" type="application/json">"/card/652/registration_id/"</script>
+<script type="module">
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/9.1.2/firebase-app.js"
+  import { getMessaging, getToken, onMessage } from "https://www.gstatic.com/firebasejs/9.1.2/firebase-messaging.js"
+  // Your web app's Firebase configuration
+  const firebaseConfig = {
+  apiKey: "AIzaSyDSpGY7WHQWLbIiNBZTwfVRx1qKFOIHPp4",
+  authDomain: "identicard-328401.firebaseapp.com",
+  projectId: "identicard-328401",
+  storageBucket: "identicard-328401.appspot.com",
+  messagingSenderId: "508686565862",
+  appId: "1:508686565862:web:c0b59af05da73719bf9627"
+  }
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig)
+  const msg = getMessaging()
+
+  navigator.serviceWorker.register('/firebase-messaging-sw.js')
+    .then(reg => {
+      reg.update();
+      getToken(msg, {vapidKey: 'BMF0cNAR7NGqlbs9gwLdCe4EhqGQNMKmLt2mgg9ffig_NBVpDQ_SOWYlUP1xa3iKiJ_2nERo746EDuufLK2XxpU'})
+        .then(currentToken => {
+          if (currentToken) {
+          const regURL = JSON.parse(document.querySelector('#regURL').textContent)
+          const formData = new FormData()
+          formData.append('registration_id', currentToken)
+          formData.append('csrfmiddlewaretoken', 'bxaMRjwPNTDFKREExKto6MDzDlpZVLHa9uYJmCEOFDEZZpRxgL7YzPxQR3QsMWFu')
+          fetch(regURL, {
+              method: 'POST',
+              body: formData
+          })
+          } else {
+          // Show permission request UI
+          console.log('No registration token available. Request permission to generate one.')
+          // ...
+          }
+        }).catch((err) => {
+          console.log('An error occurred while retrieving token. ', err)
+        });
+    })
+
+    onMessage(msg, (payload) => {
+    const data = payload.data
+    const notification = payload.notification
+    // Customize notification here
+    const notificationTitle = notification.title
+    const notificationOptions = {
+      body: notification.body,
+      image: notification.image,
+      icon: notification.icon,
+      badge: notification.badge,
+      data,
+    }
+    const n = new Notification(notificationTitle, notificationOptions)
+    n.onclick = function(e) {
+      e.preventDefault()
+      const url = e.currentTarget.data.url
+      window.open(url)
+    }
+  })
+
+  let deferredPrompt = null
+
+  const btnAdd = document.querySelector('#add-btn')
+
+  window.addEventListener('beforeinstallprompt', function(e) {
+    // Stash the event so it can be triggered later.
+    deferredPrompt = e
+  });
+
+  // Installation must be done by a user gesture! Here, the button click
+  btnAdd?.addEventListener('click', (e) => {
+  if (!deferredPrompt) return
+  // Show the prompt
+  deferredPrompt.prompt()
+  // Wait for the user to respond to the prompt
+  deferredPrompt.userChoice
+    .then((choiceResult) => {
+    if (choiceResult.outcome === 'accepted') {
+      console.log('User accepted the A2HS prompt')
+    } else {
+      console.log('User dismissed the A2HS prompt')
+    }
+    deferredPrompt = null
+    })
+  })
+</script>
+  </body>
+</html>
